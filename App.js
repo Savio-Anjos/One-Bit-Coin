@@ -2,6 +2,7 @@ import { StyleSheet, Text, View, SafeAreaView, StatusBar } from "react-native";
 
 import CurrentPrice from "./src/components/CurrentPrice";
 import HistoryGraphic from "./src/components/HistoryGraphic";
+import QuotationList from "./src/components/QuotationsList";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <StatusBar backgroundColor="#f50d41" barStyle="dark-content" />
       <CurrentPrice />
       <HistoryGraphic />
+      <QuotationList />
     </SafeAreaView>
   );
 }
