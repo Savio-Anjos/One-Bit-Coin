@@ -1,10 +1,12 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View, SafeAreaView } from "react-native";
+import { StyleSheet, Text, View, SafeAreaView, StatusBar } from "react-native";
+
+import CurrentPrice from "./src/components/CurrentPrice";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar style="auto" />
+      <StatusBar backgroundColor="#f50d41" barStyle="dark-content" />
+      <CurrentPrice />
     </SafeAreaView>
   );
 }
