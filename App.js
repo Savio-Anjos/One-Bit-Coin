@@ -44,6 +44,17 @@ async function getListCoins(url) {
   return data;
 }
 
+async function getPriceCoinsGraphic(url) {
+  let responseG = await fectch(url);
+  let returnApiG = await responseG.json();
+  let selectListQuotationsG = returnApiG.bpi;
+  const queryCoinsList = Object.keys(selectListQuotationsG).map((key) => {
+    selectListQuotationsG[key];
+  });
+  let dataG = queryCoinsList.reverse();
+  return dataG;
+}
+
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
