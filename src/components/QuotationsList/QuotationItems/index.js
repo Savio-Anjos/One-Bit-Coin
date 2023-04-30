@@ -25,6 +25,7 @@ export default function QuotationItems() {
             style={styles.logBitcoin}
             source={require("../../../img/logobitcoin.png")}
           />
+
           <Text style={styles.dayCotation}>07/05/2021</Text>
         </View>
       </View>
