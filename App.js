@@ -30,6 +30,20 @@ function url(qtdDays) {
   return `https://api.coindesk.com/v1/bpi/historical/close.json?start=${start_date}&end=${end_date}`;
 }
 
+async function getListCoins(url) {
+  let response = await fectch(url);
+  let returnApi = await response.json();
+  let selectListQuotations = returnApi.bpi;
+  const queryCoinsList = Object.keys(selectListQuotations).map((key) => {
+    return {
+      data: key.split("-").reverse().join("/"),
+      valor: selectListQuotations[key],
+    };
+  });
+  let data = queryCoinsList.reverse();
+  return data;
+}
+
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
