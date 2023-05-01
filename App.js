@@ -4,7 +4,6 @@ import { StyleSheet, Text, View, SafeAreaView, StatusBar } from "react-native";
 import CurrentPrice from "./src/components/CurrentPrice";
 import HistoryGraphic from "./src/components/HistoryGraphic";
 import QuotationList from "./src/components/QuotationsList";
-import QuotationItems from "./src/components/QuotationsList/QuotationItems";
 
 //insert zero to the left
 function addZero(number) {
@@ -55,7 +54,7 @@ async function getPriceCoinsGraphic(url) {
 
 export default function App() {
   const [coinsList, setcoinsList] = useState([]);
-  const [coinsGrafichList, setcoinsGrafichList] = useState([0]);
+  const [coinsGraphicList, setcoinsGraphicList] = useState([0]);
   const [days, setdays] = useState(30);
   const [updateData, setupdateData] = useState(true);
 
@@ -80,7 +79,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <StatusBar backgroundColor="#f50d41" barStyle="dark-content" />
       <CurrentPrice />
-      <HistoryGraphic />
+      <HistoryGraphic infoDataGraphic={coinsGraphicList} />
       <QuotationList filterDay={updateDay} listTansactions={coinsList} />
     </SafeAreaView>
   );
