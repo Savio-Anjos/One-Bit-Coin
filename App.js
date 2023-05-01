@@ -81,7 +81,7 @@ export default function App() {
       <StatusBar backgroundColor="#f50d41" barStyle="dark-content" />
       <CurrentPrice />
       <HistoryGraphic />
-      <QuotationList />
+      <QuotationList filterDay={updateDay} listTansactions={coinsList} />
       <QuotationItems />
     </SafeAreaView>
   );
