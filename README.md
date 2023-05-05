@@ -26,14 +26,14 @@ Esse projeto está utilizando as seguintes tecnologias:
 ### Clone esse repositório
 
 ```bash
-git clone https://github.com/Savio-Anjos/guess-the-word.git
+git https://github.com/Savio-Anjos/One-Bit-Coin.git
 
 ```
 
 ### Navegue até o diretório do projeto
 
 ```bash
-cd guess-the-word
+cd One-Bit-Coin
 ```
 
 ### Instale as dependências
