@@ -16,10 +16,10 @@ Esse projeto está utilizando as seguintes tecnologias:
 
 ## ⚙️ Como funciona?
 
-- Seleciona categoria e palavra de forma aleatória
-- Usuário possui 3 vidas
-- Caso perca o usuario é levado para tela de GameOver
-- Caso acerte uma nova palavra é escolhida
+- O App consome um api com os preços do Bitcoin
+- O Valor é exibido ao usuário
+- Os dados são passados para o gráfico
+- O usuário pode filtrar quantos dias ou meses o valor deve ser exibido
 
 ## 🎲 Quer customizar o projeto?
 
