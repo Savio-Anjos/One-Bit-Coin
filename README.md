@@ -2,9 +2,9 @@
 
  <p align='center'>
 
-<img src="https://img.shields.io/github/repo-size/Savio-Anjos/OneBitCoin?color=f50d41">
-<img src="https://img.shields.io/github/languages/count/Savio-Anjos/OneBitCoin?color=f50d41">
-<img src="https://img.shields.io/github/last-commit/Savio-Anjos/OneBitCoin?color=f50d41"> 
+<img src="https://img.shields.io/github/repo-size/Savio-Anjos/One-Bit-Coin?color=f50d41">
+<img src="https://img.shields.io/github/languages/count/Savio-Anjos/One-Bit-Coin?color=f50d41">
+<img src="https://img.shields.io/github/last-commit/Savio-Anjos/One-Bit-Coin?color=f50d41"> 
 </p>
 
 ## 🚀 Tecnologias
