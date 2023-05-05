@@ -7,16 +7,12 @@
 <img src="https://img.shields.io/github/last-commit/Savio-Anjos/OneBitCoin?color=f50d41"> 
 </p>
 
-## 🚀 Teste o jogo por conta própria:
-
-## - [Deploy](https://guess-the-word-nine.vercel.app/)
-
 ## 🚀 Tecnologias
 
 Esse projeto está utilizando as seguintes tecnologias:
 
-- [React](https://pt-br.reactjs.org/)
-- [Lottie](https://lottiefiles.com/)
+- [ReactNative](https://reactnative.dev/)
+- [Expo](https://docs.expo.dev/)
 
 ## ⚙️ Como funciona?
 
